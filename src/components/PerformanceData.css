@@ -1,0 +1,40 @@
+.performance-data {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.image-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-list li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: calc(20% - 20px); /* 20% ширины родительского контейнера с отступом 20px */
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.image-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Увеличили радиус скругления углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Увеличили размер тени */
+}
+
+.performance-data h2 {
+    margin-top: 0;
+
+    color: #000000;
+    text-align: -webkit-right ;
+    margin-bottom: 20px;
+
+}
+
+
